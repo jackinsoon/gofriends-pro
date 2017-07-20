@@ -1,0 +1,6 @@
+.header {
+    background: $main-color;
+    &__button {
+        @include button($red-color);
+    }
+}
